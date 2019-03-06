@@ -21,6 +21,7 @@ test_that("select values are inherited from names", {
     <option>y</option>
     </select>
     ')
+  
   opts <- page %>% html_node('select') %>% parse_select()
   expect_equal(opts$options, c(x = "1", y = "y"))
 })

@@ -2,7 +2,7 @@
 
 ## Bug fixes
 
-* `submit_request` now checks for empty form-field-types to select the correct submit fields (#159)
+ * `submit_request` now checks for empty form-field-types to select the correct submit fields (#159)
 
 # rvest 0.3.2
 
